@@ -1,0 +1,355 @@
+#root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+.section {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-height: 0;
+    background: #f0f2f5;
+}
+.header {
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 8px #f0f1f2;
+    padding: 0;
+    height: 64px;
+    line-height: 64px;
+}
+
+#image_logo {
+    cursor: pointer;
+    float: left;
+    padding-left: 40px;
+}
+
+img {
+    height: 20px;
+    margin-right: 12px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+a {
+    color: rgba(0,0,0,.85);
+    text-decoration: none;
+
+}
+
+a:hover {
+    transition: 0.15s ease;
+    color: #3691ff;
+}
+
+
+.header_ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+    list-style-type: none;
+}
+.header_menu {
+    padding: 0 20px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+
+}
+.header_menu:hover {
+    transition: all 0.4s ease-in-out;
+    border-bottom: 2px solid #1191ff;
+}
+
+
+main {
+    background-color: #fff;
+    flex: auto;
+    min-height: 0;
+}
+
+.container {
+    display: flex;
+    padding: 24px;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ceil {
+
+    max-width: 66.5%;
+}
+
+.first_block {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first_bloc_info {
+    padding: 10px;
+}
+
+h1.style_text {
+    display: block;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+    overflow-wrap: break-word;
+}
+
+h4.style_text {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.button_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.first_block_button {
+    height:40px;
+    padding: 6.4px 20px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+    border-color: #1890ff;
+    background: #1890ff;
+    border-style: none;
+}
+.first_block_button:hover {
+    transition: 0.25s ease-in-out;
+    border-color: #3daafe;
+    background: #3daafe;
+}
+
+h5.style_text {
+    margin-bottom: .5em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+
+.second_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*flex-flow: row wrap;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 5em;
+    background-color: rgb(250, 250, 250);
+    border-width: 1px;
+    border-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-radius: 25px;
+
+
+}
+
+.second_block_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 66.5%;
+
+
+}
+
+.second_block_image_frame {
+    position: relative;
+    padding: 0 50px 0 70px;
+    max-width: 100%;
+    min-height: 1px;
+}
+.second_block_img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.second_block_text_container {
+    max-width: 66.5%;
+    padding: 0 30px 0 20px;
+}
+.second_block_text_container_h1 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+    padding: 0 40px 0 80px;
+}
+.second_block_text_container_h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    padding: 0 40px 0 80px;
+}
+
+
+
+.third_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*flex-flow: row wrap;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 6em;
+    background-color: rgb(250, 250, 250);
+    border-width: 1px;
+    border-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.third_block_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 66.5%;
+
+
+}
+
+.third_block_image_frame {
+    position: relative;
+    padding: 0 60px 0 65px;
+    max-width: 100%;
+    min-height: 1px;
+}
+.third_block_img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.third_block_text_container {
+    max-width: 66.5%;
+    padding: 0 30px 0 20px;
+}
+.third_block_text_container_h1 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+    padding: 0px 40px 0 40px;
+}
+.third_block_text_container_h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    padding: 0 20px 0 40px;
+}
+
+.fourth_block {
+    display: flex;
+    justify-content: space-around;
+    /*flex-flow: row wrap;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 5em;
+    background-color: rgb(250, 250, 250);
+    border-width: 1px;
+    border-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-radius: 25px;
+
+}
+
+.fourth_block_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 494px;
+
+}
+code {
+    line-height: 0.9em;
+}
+pre {
+    display: block;
+    height: auto;
+    padding: 0.5em 3em 0.5em 0.5em;
+    background: rgb(255, 255, 255);
+    color: black;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+.fourth_block_img {
+
+}
+
+
+.fourth_block_text_container {
+    max-width: 514px;
+    margin-left: 25px ;
+
+
+}
+.fourth_block_text_container_h1 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+
+}
+.fourth_block_text_container_h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+
+}
