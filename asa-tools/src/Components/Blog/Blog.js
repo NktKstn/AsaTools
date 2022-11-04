@@ -11,7 +11,7 @@ function Blog() {
                     <div className="blog-ant-col">
                         <div className="blog-text">
                             <div className="blog-ant-col" style={{padding: "28px 28px 28px 28px", width: "100%", color: "rgb(119, 119, 119)"}}>
-                                <Link to ="/blog/asaPerfomance">
+                                <Link to ="/blog/asa-perfomance">
                                     <h4 className="h4-blog">How to measure Apple Search Ads performance with ASATools</h4>
                                     <div style={{marginBottom: "0px", color: "rgba(0,0,0,.85)", overflowWrap: "break-word"}}>This guide will show you what information you can get from ASATools reports.</div>
                                 </Link>

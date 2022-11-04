@@ -19,7 +19,7 @@ function App() {
               <Route path="/" element = {<Main/>}/>
               <Route path="/blog" element = {<Blog/>}/>
               <Route path="/skag" element = {<Skag/>}/>
-              <Route path="/blog/asaPerfomance" element = {<AsaPerfomance/>}/>
+              <Route path="/blog/asa-perfomance" element = {<AsaPerfomance/>}/>
               <Route path="/blog/amplitude-retention" element = {<AmplitudeRetention/>}/>
           </Routes>
           <Footer/>

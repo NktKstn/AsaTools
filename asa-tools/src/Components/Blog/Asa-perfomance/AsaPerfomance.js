@@ -16,7 +16,7 @@ function AsaPerfomance() {
                                 <div className="sticky-list-container">
                                     <ul style={{padding:"0", margin: "0", listStyle: "none"}}>
                                         <li className="sticky-list-li" style={{paddingLeft: "0"}}>
-                                            <Link to ="/blog/asaPerfomance">
+                                            <Link to ="/blog/asa-perfomance">
                                                 <span className="ant-badge" style={{color:"rgb(119, 119, 119)"}}>
                                                     <span className="ant-badge-status-dot ant-badge-status-processing">
                                                     </span>
