@@ -1,5 +1,6 @@
 import React from "react";
-import '../App.css';
+// import '../../App.css';
+import "./main.css"
 
 function Main() {
 
@@ -11,14 +12,7 @@ function Main() {
         let el = document.querySelector(".first_block_button");
         el.style.background = "#1890ff";
     }
-    function btnHandlerDown2() {
-        let el = document.querySelector(".visual_button");
-        el.style.background = "#026dda";
-    }
-    function btnHandlerUp2() {
-        let el = document.querySelector(".visual_button");
-        el.style.background = "#1890ff";
-    }
+
 
     // function inputClick() {
     //     let el = document.querySelector(".visual_email_input");
@@ -152,25 +146,6 @@ function Main() {
                                     <h4 className="second_block_text_container_h4">You can pass install source information to your product analytics and analyze user behavior by campaigns, ad groups, keywords, and custom product pages.</h4>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div className= "feedback_field_frame" >
-                    <div className="feedback_field">
-                        <h1 className="second_block_text_container_h1 text_centre">Let’s improve your Search Ads ROAS together</h1>
-                        <h4 className="second_block_text_container_h4 ">Leave your email and we will contact you for a demo</h4>
-                        <div className="email_button_container">
-                            <span className="visual_email_input" >
-                                <input type="text" placeholder="mail@domain.com" className="email_input"/>
-                                <span className="input_suffix">
-                                    <span className="clear_suffix"></span>
-                                </span>
-                            </span>
-                            <span className="button_container">
-                                <button className="visual_button" onMouseUp={btnHandlerUp2} onMouseDown={btnHandlerDown2}>
-                                    <span>Schedule a demo</span>
-                                </button>
-                            </span>
                         </div>
                     </div>
                 </div>

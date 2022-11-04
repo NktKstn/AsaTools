@@ -1,0 +1,51 @@
+.ant-layout-content {
+    box-sizing: border-box;
+    background-color: #fff;
+    flex: auto;
+    min-height: 0;
+    line-height: 1.57;
+}
+.ant-row-position {
+    display: flex;
+    padding: 24px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.ant-layout-container {
+    padding-bottom: 30px;
+    /*font-size: 1.3em;*/
+    width: 100%;
+    max-width: 928px;
+}
+.h1-container {
+    max-height: 42.89px;
+    margin-top: 0;
+    margin-bottom: 13.65px;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 2em;
+
+
+}
+.p-container {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+}
+.a-container {
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+.a-container:hover {
+    transition: 0.15s ease;
+    color: #3691ff;
+}

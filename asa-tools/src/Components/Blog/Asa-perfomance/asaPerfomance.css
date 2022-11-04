@@ -1,0 +1,219 @@
+.blog-layout-content {
+    display: flex;
+    padding: 24px;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    line-height: 1.57;
+}
+.hidden-blog {
+    position: sticky;
+    top: 88px;
+    visibility: hidden;
+}
+.blog-container {
+    padding: 0px;
+    width: 100%;
+    max-width: 928px;
+}
+.h1-blog {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 1.5em;
+
+}
+.p-blog {
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: block;
+}
+.h2-blog {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    display: block;
+    font-size: 1.5em;
+}
+.ol-blog {
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.a-container {
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+.a-container:hover {
+    transition: all 0.15s ease;
+    color: #3691ff;
+}
+.sticky-list {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+}
+.sticky-list-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: transparent;
+    outline: none;
+}
+.sticky-list-container{
+    position: relative;
+    transition: opacity .3s;
+    outline: none;
+}
+
+.sticky-list-li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0,0,0,.85);
+    max-width: 370px;
+}
+.sticky-list-li:hover {
+    color: rgb(119, 119, 119);
+}
+.ant-badge {
+    line-height: inherit;
+    vertical-align: baseline;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.ant-badge-status-dot {
+    top: -1px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.ant-badge-status-processing {
+    position: relative;
+    background-color: #1890ff;
+    box-sizing: border-box;
+}
+.ant-badge-status-processing::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1890ff;
+    border-radius: 50%;
+    -webkit-animation: antStatusProcessing 1.2s ease-in-out infinite;
+    animation: antStatusProcessing 1.2s ease-in-out infinite;
+    content: "";
+    box-sizing: border-box;
+}
+.ant-badge-status-text {
+    margin-left: 8px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+}
+@media all and (max-width: 1440px ){
+    .blog-container {
+        padding: 0 52px 0;
+    }
+}
+@media all and (max-width: 1024px ){
+    .blog-layout-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hidden-blog {
+        display: none;
+    }
+    .blog-container {
+        max-width: 650px;
+        padding: 0;
+    }
+    .sticky-list {
+       width: 650px;
+    }
+}
+@media all and (max-width: 768px ){
+    .blog-layout-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog-container {
+        max-width: 540px;
+        padding: 0;
+    }
+    .sticky-list {
+        width: 540px;
+    }
+}
+@media all and (max-width: 425px ){
+    .blog-layout-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog-container {
+        max-width: 377px;
+        padding: 0;
+    }
+    .sticky-list {
+        width: 377px;
+    }
+}
+@media all and (max-width: 375px ){
+    .blog-layout-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog-container {
+        max-width: 327px;
+        padding: 0;
+    }
+    .sticky-list {
+        width: 327px;
+    }
+}
+@media all and (max-width: 320px ){
+    .blog-layout-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog-container {
+        max-width: 272px;
+        padding: 0;
+    }
+    .sticky-list {
+        width: 272px;
+    }
+}
