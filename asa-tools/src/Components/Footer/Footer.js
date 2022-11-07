@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css"
+import {Link} from "react-router-dom";
 function Footer() {
     function btnHandlerDown2() {
         let el = document.querySelector(".visual_button");
@@ -35,7 +36,7 @@ function Footer() {
             <div className="footer_container">
                 <div className="ant-col">
                     <a className="ant-col-a">
-                        <span>Terms of Service</span>
+                        <Link to ="/terms-of-service"><span>Terms of Service</span></Link>
                     </a>
                 </div>
                 <div className="ant-col">

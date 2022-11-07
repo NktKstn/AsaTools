@@ -1,0 +1,14 @@
+.custom-class {
+    font-family: Arial;
+    font-size: 26px;
+    color: #000000;
+}
+.custom-class-link a {
+    color: #3030F1;
+    font-size: 14px;
+    font-family: Arial;
+    word-break: break-word;
+    cursor: pointer;
+    text-decoration: underline;
+    background: transparent;
+}

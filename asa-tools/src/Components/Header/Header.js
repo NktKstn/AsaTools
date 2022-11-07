@@ -177,18 +177,18 @@ function Header() {
         document.querySelector(".svg-icon").style.background = "transparent";
         document.querySelector(".svg-icon").style.transition = "0.3s ease-in-out";
     }
-    function popupOpen() {
-        let popup = document.querySelector(".popup-bg");
-        document.body.style.overflow = "hidden";
-        popup.style.opacity = 1;
-        popup.style.overflow = "visible";
-    }
-    function popupClose() {
-        let popup = document.querySelector(".popup-bg");
-        document.body.style.overflow = "visible";
-        popup.style.opacity = 0;
-        popup.style.overflow = "auto";
-    }
+    // function popupOpen() {
+    //     let popup = document.querySelector(".popup-bg");
+    //     document.body.style.overflow = "hidden";
+    //     popup.style.opacity = 1;
+    //     popup.style.overflow = "visible";
+    // }
+    // function popupClose() {
+    //     let popup = document.querySelector(".popup-bg");
+    //     document.body.style.overflow = "visible";
+    //     popup.style.opacity = 0;
+    //     popup.style.overflow = "auto";
+    // }
     return(
         <div >
             <section className="section" >
@@ -201,7 +201,7 @@ function Header() {
                     <ul className="header_ul">
                         <li className="header_menu">
                             <div  className="pricing popup-link" onClick={fade}>
-                                <span className="open-popup">Pricing</span>
+                                <Link><span className="open-popup">Pricing</span></Link>
                             </div>
                         </li>
                         <li className="header_menu">
@@ -223,7 +223,6 @@ function Header() {
                 </div>
             </section>
             <div className="popup-bg" >
-
                 <div className="ant-modal-content centered" >
                     <button type="button" aria-label="close" className="ant-modal-close">
                     <span className="ant-modal-close-x" onMouseLeave={svgAnimation} onClick={fade}>

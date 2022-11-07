@@ -31,7 +31,7 @@ function Blog() {
                     <div className="blog-ant-col">
                         <div className="blog-text">
                             <div className="blog-ant-col" style={{padding: "28px 14px 28px 28px", width: "100%"}}>
-                                <Link to ="/blog/">
+                                <Link to ="/blog/amplitude-paywall-conversion">
                                     <h4 className="h4-blog">How to calculate install to key action conversion by keywords</h4>
                                     <div style={{marginBottom: "0px", color: "rgba(0,0,0,.85)", overflowWrap: "break-word"}}>This tutorial will guide you on how to create a report, which will show conversions from app install to paywall open for a different keywords.</div>
                                 </Link>

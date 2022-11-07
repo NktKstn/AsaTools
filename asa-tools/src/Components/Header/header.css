@@ -43,14 +43,13 @@ body {
 a {
     color: rgba(0,0,0,.85);
     text-decoration: none;
-
 }
 
-a:hover {
-    transition: 0.15s ease;
-    color: #3691ff;
-}
+/*a:hover {*/
+/*    transition: 0.15s ease;*/
+/*    color: #3691ff;*/
 
+/*}*/
 
 .header_ul {
     display: flex;
@@ -65,9 +64,13 @@ a:hover {
 
 }
 .header_menu:hover {
-    transition: all 0.4s ease-in-out;
+    transition: all 70ms ease;
     border-bottom: 2px solid #1191ff;
 
+}
+.header_menu:hover a {
+    transition: 0.2s ease;
+    color: #3691ff;
 }
 
 /*.ant-modal-mask {*/
