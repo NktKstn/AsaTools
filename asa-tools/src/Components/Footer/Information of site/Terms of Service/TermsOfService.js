@@ -178,17 +178,17 @@ function TermsOfService() {
                     <br/>
                     <span style={{color:"rgb(89, 89, 89)", fontFamily:"Arial", lineHeight:"115%"}}>
                         These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (вЂњyouвЂќ) and Vladyslav Duhnist ("Company", вЂњweвЂќ, вЂњusвЂќ, or вЂњourвЂќ), concerning your access to and use of the asa.tools website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the вЂњSiteвЂќ). We are registered in Georgia and have our registered office at Tabukashvili str 29, 9, Tbilisi, Tbilisi 0162. You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-                        <br/>
-                        <br/>
+                    <br/>
+                    <br/>
                         Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use from time to time. We will alert you about any changes by updating the вЂњLast updatedвЂќ date of these Terms of Use, and you waive any right to receive specific notice of each such change. Please ensure that you check the applicable Terms every time you use our Site so that you understand which Terms apply. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.
-                        <br/>
-                        <br/>
+                    <br/>
+                    <br/>
                         The information provided on the Site is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Site from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
-                        <br/>
-                        <br/>
+                    <br/>
+                    <br/>
                         The Site is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use this Site. You may not use the Site in a way that would violate the Gramm-Leach-Bliley Act (GLBA).
-                        <br/>
-                        <br/>
+                    <br/>
+                    <br/>
                         The Site is intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Site.
                         <br/>
                         <br/>
@@ -297,7 +297,7 @@ function TermsOfService() {
                         <br/>
                     </span>
                 </div>
-                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="cancel">
+                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="software">
                     <strong>
                         <span style={{fontSize: "19px"}}>8. SOFTWARE</span>
                     </strong>
@@ -491,7 +491,7 @@ function TermsOfService() {
                         <br/>
                     </span>
                 </div>
-                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="sitemanage">
+                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="privacypolicy">
                     <strong>
                         <span style={{fontSize: "19px"}}>16. PRIVACY POLICY</span>
                     </strong>
@@ -575,7 +575,7 @@ function TermsOfService() {
                         <br/>
                     </span>
                 </div>
-                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="disclaimer">
+                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="disclamer">
                     <strong>
                         <span style={{fontSize: "19px"}}>22. DISCLAIMER</span>
                     </strong>
@@ -669,7 +669,7 @@ function TermsOfService() {
                      <br/>
                     </span>
                 </div>
-                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="misc">
+                <div className="custom-class" style={{textAlign:"left", lineHeight: "1.5"}} id="contact">
                     <strong>
                         <span style={{fontSize: "19px"}}>29. CONTACT US</span>
                     </strong>

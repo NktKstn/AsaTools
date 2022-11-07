@@ -36,12 +36,12 @@ function Footer() {
             <div className="footer_container">
                 <div className="ant-col">
                     <a className="ant-col-a">
-                        <Link to ="/terms-of-service"><span>Terms of Service</span></Link>
+                        <Link to = "/terms-of-service"><span style={{color:"rgb(179, 179, 179)"}}>Terms of Service</span></Link>
                     </a>
                 </div>
                 <div className="ant-col">
                     <a className="ant-col-a">
-                        <span>Privacy Policy</span>
+                        <Link to = "/privacy-policy"><span style={{color:"rgb(179, 179, 179)"}}>Privacy Policy</span></Link>
                     </a>
                 </div>
                 <div className="ant-col">
