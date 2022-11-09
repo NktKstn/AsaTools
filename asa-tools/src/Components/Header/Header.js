@@ -155,7 +155,6 @@ function Header() {
             popup.style.opacity = 1;
             popup.style.transition = "all 0.3s";
             popup.style.opacity = 0;
-
             setTimeout(() => {
                 popup.style.display = "none";
             }, timeout);
@@ -235,10 +234,10 @@ function Header() {
                     <div className="ant-modal-body">
                         <div className="ant-row">
                             <div className="ant-col-24">
-                                <h3 className="ant-col-24_h3">Includes 10.000 installs from Apple Search Ads.</h3>
+                                <h3 className="ant-col-24_h3">Includes 10.000 installs/month from Apple Search Ads.</h3>
                             </div>
                             <div className="ant-card">
-                                <div className="ant-card-body" style={{padding: "24px"}}>
+                                <div className="ant-card-body first">
                                     <img src="/keys.png" alt="calendar"/>
                                     <h3 className="ant-col-24_h3" style={{marginBottom: "0px", marginTop: "1em"}}>Monthly Plan</h3>
                                     <h5 className="ant-col-24_h5" style={{marginTop: "0px"}}>$99/month</h5>
@@ -251,7 +250,7 @@ function Header() {
                             <div className="ant-col-xs-24">
                             </div>
                             <div className="ant-card">
-                                <div className="ant-card-body" style={{padding: "24px"}}>
+                                <div className="ant-card-body two" >
                                     <img src="/keys2.png" alt="calendar"/>
                                     <h3 className="ant-col-24_h3" style={{marginBottom: "0px", marginTop: "1em"}}>Annual Plan</h3>
                                     <h5 className="ant-col-24_h5" style={{marginTop: "0px"}}>$58.25/month (41% savings)</h5>

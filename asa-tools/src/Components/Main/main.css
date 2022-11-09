@@ -197,6 +197,22 @@ pre {
     width: 100%;
     max-width: 515px;
 }
+
+.ant-modal {
+    top: 25%;
+    left: 10%;
+    width: 450px;
+    transform-origin: 531px 56px;
+    position: absolute;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    pointer-events: auto;
+    overflow: hidden;
+}
+
 @media all and (max-width: 2560px){
     .ceil {
         width: 92%;
